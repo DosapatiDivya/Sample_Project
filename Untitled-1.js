@@ -20,7 +20,7 @@ chatClient.prototype.onError = function onError(message){
     console.log('Error: ' + message);
 };
 
-/* This is an example of a leaderboard scoring system. When someone sends a message to chat, we store 
+/* This is an example of a leaderboard scoring system. When someone sends a message to chat, we store .
    that value in local storage. It will show up when you click Populate Leaderboard in the UI.  thanks.
 */
 chatClient.prototype.onMessage = function onMessage(message){
